@@ -1,3 +1,18 @@
 h1 {
     color: darkmagenta;
 }
+
+#home-intro{
+    text-align: center;
+    /*border: 3px;
+    border-color:black;
+    border-style: solid;*/
+    border:3px solid rgb(25, 62, 180);
+
+}
+#home-intro:hover{
+    background-color: rgb(87, 171, 165);
+}
+#p2{
+    color: rgb(177, 218, 29);
+}

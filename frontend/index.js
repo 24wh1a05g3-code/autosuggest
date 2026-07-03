@@ -1,2 +1,2 @@
 console.log("Hello from JS");
-alert("I am working");
+//alert("I am working");
