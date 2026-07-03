@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/24wh1a05g3-code/autosuggest/issues"
   },
-  "homepage": "https://github.com/24wh1a05g3-code/autosuggest#readme"
+  "homepage": "https://github.com/24wh1a05g3-code/autosuggest#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
