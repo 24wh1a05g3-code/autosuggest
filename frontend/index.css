@@ -32,25 +32,30 @@ h1 {
     color: white;
 
 }
-
 #card-img{
     width: 300px;
     height: 300px;
     align-items: center;
-    margin: 0px 5px;
+    margin: 0px auto;
 }
-#card {
-    display: flex;
-    justify-content: center; 
+#card { 
     align-items: center;    
     margin-top: 5px;
+    border: 3px solid black;
+    width: 300px;
+    height: 580px;
+    margin : 3px auto;
+    border-radius: 10px;
 }
 #img {
-    display: block;
-    margin: 0 auto;
     width: 300px;
     height: 300px;
+    border-radius: 8px;
 }
 #action{
     text-align: center;
+    
+}
+button{
+    width: 100%;
 }
