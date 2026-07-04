@@ -4,14 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .left-bar {
+            position:fixed;
+            top: 20px;
+            left: 20px;
+        }   
+        .right-bar {
+            position:fixed;
+            top: 20px;
+            right: 20px;
+        }
+        #search-section {
+            text-align: center;
+            margin-top: 100px;
+        }
+        /* #title {
+            text-align: center;
+            color: #4CAF50;
+        } */
+
+    </style>
 </head>
 <body>
-    <span>&#9881</span>
-    <span>&#8226 Online | &#128336-ms</span>
-    <h1>&#x1F451 Akshaya's Kingdom &#x1F451</h1>
-    <p> One million phrases.Four Algorithms.Prefix based Auto Suggest.</p>
-    <span>&#128269;<input type="text" id="search" placeholder="Search here..."></span>
-    <div id="suggestions"></div>
-    //<button id="search" onclick="search()">Search</button>
+    <div>
+        <span class="left-bar">&#9881</span>
+        <span class="right-bar">&#8226 Online | &#128336-ms</span>
+    </div>
+    <div id="search-section">
+        <h1 id="title">&#x1F451 Akshaya's Kingdom &#x1F451</h1>
+        <p> One million phrases.Four Algorithms.Prefix based Auto Suggest.</p>
+        <span>&#128269;<input type="text" id="search" placeholder="Search here..."></span>
+    </div>
+    <!-- <button id="search" onclick="search()">Search</button> -->
 </body>
 </html>
